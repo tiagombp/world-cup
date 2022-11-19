@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.svg-container {
+    width: 400px;
+    height: 300px;
+    border: 1px solid gray;
+    position: relative;
+}
+
+line.tick {
+    stroke: gray;
+    stroke-width: 2;
+}
+
+.label { 
+    position: absolute;
+    margin: 0;
+    font-family: Arial;
+    font-size: .8rem;
+}
+
+.text-label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+circle {
+    fill: dodgerblue;
+}
